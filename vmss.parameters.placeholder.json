@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmssName": {
+            "value": "vmss-keklinke-repro-1"
+        },
+        "virtualNetworkNamePrefix": {
+            "value": "vnet-keklinke-repro"
+        },
+        "cloudConfigContents": {
+            "value": "##YAML:cloud-config.yml##"
+        },
+        "instanceCount": {
+            "value": 1
+        },
+        "vmSize": {
+            "value": "Standard_DS3_v2"
+        }
+    }
+}

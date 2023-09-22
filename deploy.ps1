@@ -5,8 +5,8 @@
 .PARAMETER ResourceGroup
     The name of the resource group to deploy the VMSS to
 
-.PARAMETER Location
-    The location to deploy the VMSS to
+.PARAMETER AdminPassword
+    The password to use for the admin account on the VMSS
 #>
 param (
     [string]

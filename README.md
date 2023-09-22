@@ -31,7 +31,7 @@ To repro the issue, do the following:
 3. Run the following:
     ```powershell
     $password = ConvertTo-SecureString -String "{PASSWORD}" -AsPlainText
-    ./deploy.ps1 -ResourceGroup "{RESOURCE_GROUP_NAME}" -Location "{LOCATION}" -Password $password
+    ./deploy.ps1 -ResourceGroup "{RESOURCE_GROUP_NAME}" -Password $password
     ```
 
 
